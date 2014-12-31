@@ -1,0 +1,98 @@
+#Header{
+	border-style: solid;
+	width: 100%
+}
+#SideMenu{
+	float: left;
+	width: '100px';
+	height: 100%;
+	border-style: solid;
+	margin-top: 1px;
+}
+.MenuItem{
+	width: 100%; 
+}
+.MenuItem:hover{
+	background-color: blue;
+}
+#Cotent{
+	float: left;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#Footer{
+	position: absolute; 
+	bottom: 0; 
+	left: 5;
+	
+	border-style: solid;	
+}
+
+.calDateTitle{
+	width: 100%; 
+	text-align:center;	
+}
+
+.calDateTitleData{	
+	padding-left: 3px;	
+	padding-right: 3px;	
+	display:inline-block;	
+}
+
+.calMonthNavigation{	
+	color:black;
+	display:inline-block;	
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color:white;
+}
+
+.calMonthNavigation:hover{	
+	background-color: black;
+	color: white;
+}
+
+.tdCalDay, .tdCalDayHead, .CellNotThisMonth{
+	width:20px;
+	height:23px;
+	text-align:right;
+}
+
+.tdCalDay{		
+	border: 1px solid;
+	border-radius: 5px;
+	border-color:white;
+	color: black;
+}
+
+.tdToday{	
+	background-color: blue;
+	color: white;
+}
+
+.CellNotThisMonth{
+	color: gray;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color:white;	
+}
+
+.tdSelected{
+	background-color: brown;
+	color: white;
+}
+
+.tdCalDay:hover{	
+	background-color: black;
+	color: white;
+}
+
+.CellNotThisMonth:hover{	
+	background-color: black;
+	color: white;
+}

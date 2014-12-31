@@ -1,0 +1,3 @@
+function PageLoad(){	
+	BuildCalendar("CalendarID"); 
+}
